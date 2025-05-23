@@ -12,7 +12,6 @@
         android:theme="@style/Theme.Watcha"
         tools:targetApi="31">
 
-        <!-- SPLASH should be launcher activity -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"> <!-- must be true for launcher activity -->

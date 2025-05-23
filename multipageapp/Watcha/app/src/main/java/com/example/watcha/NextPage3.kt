@@ -113,7 +113,6 @@ class NextPage3 : AppCompatActivity() {
         }
     }
 
-    // ✅ This is now inside the class
     private fun showPopup(imageResId: Int, title: String, synopsis: String, url: String) {
         val popupView = layoutInflater.inflate(R.layout.kdrama_popup, null)
         val popupWindow = PopupWindow(

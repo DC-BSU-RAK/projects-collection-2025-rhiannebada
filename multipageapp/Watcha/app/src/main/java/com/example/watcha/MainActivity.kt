@@ -31,11 +31,10 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // Fix type mismatch error properly
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            WindowInsetsCompat.CONSUMED // This fixes the 'type mismatch' warning
+            WindowInsetsCompat.CONSUMED
         }
 
         // Navigate to NextPage2 when button is clicked
@@ -122,7 +121,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // ✅ This is now inside the class
     private fun showPopup(imageResId: Int, title: String, synopsis: String, url: String) {
         val popupView = layoutInflater.inflate(R.layout.kdrama_popup, null)
         val popupWindow = PopupWindow(

@@ -25,7 +25,7 @@ class SplashActivity : AppCompatActivity() {
         val gifView = findViewById<ImageView>(R.id.loading_gif)
         Glide.with(this)
             .asGif()
-            .load(R.drawable.loading) // assuming your gif is loading.gif in res/drawable
+            .load(R.drawable.loading)
             .into(gifView)
 
 
