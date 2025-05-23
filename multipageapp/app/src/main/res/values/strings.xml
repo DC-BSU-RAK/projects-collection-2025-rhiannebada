@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Watcha</string>
+    <string name="information_button">Information</string>
+    <string name="mood_title">WATCHA MOOD TODAY?</string>
+    <string name="mood_happy">HAPPY</string>
+    <string name="mood_sad">SAD</string>
+    <string name="mood_chill">CHILL</string>
+    <string name="genre">PICK A GENRE</string>
+    <string name="time">PICK THE TIME DURATION</string>
+    <string name="generate_movie">Generate Movie</string>
+    <string name="recommendations">Here\'s what we recommend!</string>
+    <string name="sad_content_desc">Sad mood button</string>
+    <string name="happy_content_desc">Happy mood button</string>
+    <string name="chill_content_desc">Chill mood button</string>
+</resources>
